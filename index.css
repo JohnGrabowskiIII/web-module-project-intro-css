@@ -19,8 +19,6 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 * {
     font-family: 'Roboto Mono', monospace;
@@ -32,13 +30,14 @@ p {
 
 .centerinfo {
     text-align: center;
-    margin: 0 250px;
+    margin: 0 auto;
     font-size: 10px;
+    max-width: 30%;
 }
 
 .centerinfo img {
-    height: 20vh;
-    width: 20vw;
+    height: 16vh;
+    width: 16vw;
 }
 
 h1 {
@@ -47,19 +46,31 @@ h1 {
 }
 
 nav p {
+    margin-top: 25px;
     color: white;
 }
 
 nav p:first-child {
-    background: red;
+    background: #FF764E;
+    border-radius: 10px;
+    padding: 1%;
 }
 
 nav p:nth-child(2) {
-    background: blue;
+    background: #5ED3EB;
+    border-radius: 10px;
+    padding: 1%;
 }
 
 nav p:last-child {
-    background: yellow;
+    background: #FFCD69;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+section {
+    width: 90vw;
+    margin: 20px auto;
 }
 
 section p {
@@ -68,6 +79,10 @@ section p {
 
 footer {
     background: #F9E7DC;
+    position: relative;
+    bottom: 0px;
+    height: 40vh;
+    width: 100vw;
 }
 
 span {
@@ -105,10 +120,12 @@ nav {
 }
 
 .footerimg {
-    height: 50vh;
+    height: 150px;
     width: 100vw;
+    object-fit: cover;
+    object-position: center 25%;
 }
 
 .nav2 {
-    height: 40px;
+    margin-top: 50px;
 }
