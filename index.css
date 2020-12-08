@@ -18,3 +18,15 @@ time, mark, audio, video {
 	font: inherit;
     vertical-align: baseline;
 }
+
+nav p:first-child {
+    color: red;
+}
+
+nav p:nth-child(2) {
+    color: blue;
+}
+
+nav p:last-child {
+    color: yellow;
+}
