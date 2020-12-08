@@ -46,3 +46,11 @@ nav p:last-child {
 section p {
     background: #DDB9A3;
 }
+
+footer {
+    background: #F9E7DC;
+}
+
+span {
+    font-weight: bold;
+}
