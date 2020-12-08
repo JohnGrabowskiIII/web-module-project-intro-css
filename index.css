@@ -30,8 +30,10 @@ p {
 
 .centerinfo {
     text-align: center;
-    margin: 0 auto;
-    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    font-size: 1em;
     max-width: 30%;
 }
 
@@ -40,41 +42,48 @@ p {
     width: 16vw;
 }
 
+.centerinfo p {
+    margin-bottom: 5em;
+    font-size: 0.8em;
+}
+
 h1 {
     font-family: 'Chelsea Market', cursive;
-    font-size: 30px;
+    font-size: 2em;
 }
 
 nav p {
-    margin-top: 25px;
+    margin-top: 1em;
     color: white;
 }
 
 nav p:first-child {
     background: #FF764E;
-    border-radius: 10px;
+    border-radius: 1em;
     padding: 1%;
 }
 
 nav p:nth-child(2) {
     background: #5ED3EB;
-    border-radius: 10px;
+    border-radius: 1em;
     padding: 1%;
 }
 
 nav p:last-child {
     background: #FFCD69;
-    border-radius: 10px;
+    border-radius: 1em;
     padding: 1%;
 }
 
 section {
     width: 90vw;
-    margin: 20px auto;
+    margin: 2em auto;
+    color: white;
 }
 
 section p {
     background: #DDB9A3;
+    font-size: 1em;
 }
 
 footer {
@@ -96,8 +105,8 @@ nav {
 }
 
 .head {
-    width: 100px;
-    height: 100px;
+    width: 10em;
+    height: 10em;
     border-radius: 50%;
 }
 
@@ -109,6 +118,8 @@ nav {
     margin-left: 30vw;
     margin-right: 30vw;
     padding: 20px;
+    max-width: 60vw;
+    min-width: 30vw;
 }
 
 .introtext {
