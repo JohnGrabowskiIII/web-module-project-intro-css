@@ -19,6 +19,18 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 30px;
+}
+
 nav p:first-child {
     color: red;
 }
@@ -29,4 +41,8 @@ nav p:nth-child(2) {
 
 nav p:last-child {
     color: yellow;
+}
+
+section p {
+    background: #DDB9A3;
 }
