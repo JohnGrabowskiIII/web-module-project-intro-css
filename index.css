@@ -31,16 +31,20 @@ h1 {
     font-size: 30px;
 }
 
+nav p {
+    color: white;
+}
+
 nav p:first-child {
-    color: red;
+    background: red;
 }
 
 nav p:nth-child(2) {
-    color: blue;
+    background: blue;
 }
 
 nav p:last-child {
-    color: yellow;
+    background: yellow;
 }
 
 section p {
@@ -62,5 +66,10 @@ nav {
 }
 
 nav p {
-    display: inline;
+    
+}
+
+.head {
+    width: 100px;
+    height: 100px;
 }
