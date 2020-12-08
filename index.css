@@ -54,3 +54,13 @@ footer {
 span {
     font-weight: bold;
 }
+
+nav {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+nav p {
+    display: inline;
+}
