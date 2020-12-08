@@ -26,6 +26,21 @@ time, mark, audio, video {
     font-family: 'Roboto Mono', monospace;
 }
 
+p {
+    text-align: center;
+}
+
+.centerinfo {
+    text-align: center;
+    margin: 0 250px;
+    font-size: 10px;
+}
+
+.centerinfo img {
+    height: 20vh;
+    width: 20vw;
+}
+
 h1 {
     font-family: 'Chelsea Market', cursive;
     font-size: 30px;
@@ -68,22 +83,32 @@ nav {
 .head {
     width: 100px;
     height: 100px;
-    /*position: relative;
-    bottom: 0px;
-    left: 5vw;
-    margin: 5vw;*/
+    border-radius: 50%;
 }
 
-introfield {
+.introfield {
     display: inline-flex;
     flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
-    margin: 0px auto;
+    margin-left: 30vw;
+    margin-right: 30vw;
     padding: 20px;
 }
 
-introtext {
-    flex: column;
-   text-align: center;
+.introtext {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    align-self: center;
+    padding: 30px;
+}
+
+.footerimg {
+    height: 50vh;
+    width: 100vw;
+}
+
+.nav2 {
+    height: 40px;
 }
